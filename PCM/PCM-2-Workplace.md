@@ -35,8 +35,8 @@ All communication must be clear, correct, and credible.
 2. Intercultural Competence - ability to communicate effectively despite barriers in culture.
 
 3. Multimodal Context - can give proper messages in the right context.
-   
-   ## Approaches
+
+## Approaches
 
 4. Transmission
 
