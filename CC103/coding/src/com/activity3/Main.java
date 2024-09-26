@@ -39,8 +39,7 @@ public class Main {
         salary = hours * rate;
 
         // Output the information
-        System.out.printf("My name is %s %s %s \n", firstName, midName, 
-        lastName);
+        System.out.printf("My name is %s %s %s \n", firstName, midName, lastName);
         System.out.printf("My salary is %d \n", salary);
 
         // Close the scanner
