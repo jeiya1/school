@@ -4,13 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*  _          _             
-           / \   _ __ (_) __ _  __ _ 
-          / _ \ | '_ \| |/ _` |/ _` |
-         / ___ \| | | | | (_| | (_| |
-        /_/   \_\_| |_|_|\__,_|\__, |
-                               |___/  */
-
         // Initialize variables
         String firstName,midName, lastName;
         int hours, rate, salary;
