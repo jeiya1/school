@@ -50,12 +50,12 @@ public class MultiplicationProc {
                         System.out.println("__________________________________________________________________");
                         System.out.println("|                   R   E   S   U   L   T   S                    |");
                         System.out.println("|________________________________________________________________|");
-                        System.out.println("\t    _________________________________________");
-                        System.out.println("\t    |\tMultiplicand\t:\t" + multiplicand + "\t    |");
-                        System.out.println("\t    |\tMultiplier\t:\t" + multiplier + "\t    |");
-                        System.out.println("\t    | ===================================== |");
-                        System.out.println("\t    |\tProduct   \t:\t" + product + "\t    |");
-                        System.out.println("\t    |_______________________________________|");
+                        System.out.println("  ______________________________________________________________");
+                        System.out.println(" |\tMultiplicand\t:\t" + multiplicand + "\t\t\t\t|");
+                        System.out.println(" |\tMultiplier\t:\t" + multiplier + "\t\t\t\t|");
+                        System.out.println(" | ============================================================ |");
+                        System.out.println(" |\tProduct   \t:\t" + product + "\t\t\t\t|");
+                        System.out.println(" |______________________________________________________________|");
                         System.out.println("\n================||- -(Going back to Main Menu)- -||================\n");
                     }
                     // Prints when one of the inputs for multiplicand and multiplier is negative.
@@ -63,12 +63,12 @@ public class MultiplicationProc {
                         System.out.println("__________________________________________________________________");
                         System.out.println("|                   R   E   S   U   L   T   S                    |");
                         System.out.println("|________________________________________________________________|");
-                        System.out.println("\t    _________________________________________");
-                        System.out.println("\t    |\tMultiplicand\t:\t" + multiplicand + "\t    |");
-                        System.out.println("\t    |\tMultiplier\t:\t" + multiplier + "\t    |");
-                        System.out.println("\t    | ===================================== |");
-                        System.out.println("\t    |    Negative number/s not accepted     |");
-                        System.out.println("\t    |_______________________________________|");
+                        System.out.println("  ______________________________________________________________");
+                        System.out.println(" |\tMultiplicand\t:\t" + multiplicand + "\t\t\t\t|");
+                        System.out.println(" |\tMultiplier\t:\t" + multiplier + "\t\t\t\t|");
+                        System.out.println(" | ============================================================ |");
+                        System.out.println(" |                  Negative number/s not accepted              |");
+                        System.out.println(" |______________________________________________________________|");
                         System.out.println("\n================||- -(Going back to Main Menu)- -||================\n");
                     }
                     break;
