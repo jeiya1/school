@@ -4,7 +4,8 @@ public class MultiplicationProc {
         // Initialization
         boolean programStop = false;
         byte programBehaviour;
-        int x,multiplicand,multiplier;
+        int x;
+        long multiplicand,multiplier;
         long product;
 
         Scanner input = new Scanner(System.in);
@@ -24,17 +25,17 @@ public class MultiplicationProc {
             // Using the Switch case statement, this will be the one responsible on what action to perform 
             // depending on the user input in the object program.
             switch (programBehaviour) {
-            // Takes user input for multiplicand and multiplier.
+                // Takes user input for multiplicand and multiplier.
                 case 1:
                     System.out.println("===================================================================\n");
                     System.out.println("__________________________________________________________________");
                     System.out.println("|             JEDCA-ARDRJR-RABV MultiplicationProc               |");
-                    System.out.println("__________________________________________________________________");
+                    System.out.println("|________________________________________________________________|");
                     System.out.println("__________________________________________________________________");
                     System.out.print("      Enter a number for your multiplicand\t>\t");
-                    multiplicand = input.nextInt();
+                    multiplicand = input.nextLong();
                     System.out.print("      Enter a number for your multiplier\t>>\t");
-                    multiplier = input.nextInt();
+                    multiplier = input.nextLong();
                     System.out.println("__________________________________________________________________");
                     System.out.println("");
                     // Checks if both inputs are not negative
@@ -45,29 +46,30 @@ public class MultiplicationProc {
                             // The body of the loop, where the product increases by what the user had inputted for multiplicand.
                             product = product + multiplicand; 
                         }
-                        // Prints the Result showing the multiplicand,multiplier, and product.
+                        // Prints the Result showing the multiplicand, multiplier, and product.
                         System.out.println("__________________________________________________________________");
                         System.out.println("|                   R   E   S   U   L   T   S                    |");
-                        System.out.println("__________________________________________________________________");
+                        System.out.println("|________________________________________________________________|");
                         System.out.println("\t    _________________________________________");
                         System.out.println("\t    |\tMultiplicand\t:\t" + multiplicand + "\t    |");
                         System.out.println("\t    |\tMultiplier\t:\t" + multiplier + "\t    |");
                         System.out.println("\t    | ===================================== |");
                         System.out.println("\t    |\tProduct   \t:\t" + product + "\t    |");
-                        System.out.println("\t    _________________________________________");
+                        System.out.println("\t    |_______________________________________|");
                         System.out.println("\n================||- -(Going back to Main Menu)- -||================\n");
                     }
                     // Prints when one of the inputs for multiplicand and multiplier is negative.
                     else {
                         System.out.println("__________________________________________________________________");
                         System.out.println("|                   R   E   S   U   L   T   S                    |");
-                        System.out.println("__________________________________________________________________");
+                        System.out.println("|________________________________________________________________|");
                         System.out.println("\t    _________________________________________");
                         System.out.println("\t    |\tMultiplicand\t:\t" + multiplicand + "\t    |");
                         System.out.println("\t    |\tMultiplier\t:\t" + multiplier + "\t    |");
                         System.out.println("\t    | ===================================== |");
                         System.out.println("\t    |    Negative number/s not accepted     |");
-                        System.out.println("\t    _________________________________________");
+                        System.out.println("\t    |_______________________________________|");
+                        System.out.println("\n================||- -(Going back to Main Menu)- -||================\n");
                     }
                     break;
                 // Prints when the user enters the number "0".
