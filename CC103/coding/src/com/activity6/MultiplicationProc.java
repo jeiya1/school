@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class MultiplicationProc {
     public static void main(String[] args) {
-        //Initialization
+        // Initialization
         boolean programStop = false;
         byte programBehaviour;
         int x,multiplicand,multiplier;
         long product;
 
         Scanner input = new Scanner(System.in);
-        //Prints a window that shows choices for actions to be perform.
+        // Prints a window that shows choices for actions to be perform.
         while (!programStop) {
             System.out.println("___________________________________________________________________");
             System.out.println("OO______________JEDCA-ARDRJR-RABV MultiplicationProc_____________OO");
@@ -21,8 +21,8 @@ public class MultiplicationProc {
             System.out.print("\t\t   Enter your input here >> ");
             programBehaviour = input.nextByte();
             System.out.println("");
-            //Using the Switch case statement, this will be the one responsible on what action to perform 
-            //depending on the user input in the object program.
+            // Using the Switch case statement, this will be the one responsible on what action to perform 
+            // depending on the user input in the object program.
             switch (programBehaviour) {
             // Takes user input for multiplicand and multiplier.
                 case 1:
@@ -42,10 +42,10 @@ public class MultiplicationProc {
                         // The Main Process kung saan nagbabago ang value ng product based on the operation per loop.
                         product = 0; // This is where all the values will accumulate inside the forLoop statement.
                         for (x = 0; x < multiplier; x+=1 ){
-                            //The body of the loop, where the product increases by what the user had inputted for multiplicand.
+                            // The body of the loop, where the product increases by what the user had inputted for multiplicand.
                             product = product + multiplicand; 
                         }
-                        //Prints the Result showing the multiplicand,multiplier, and product.
+                        // Prints the Result showing the multiplicand,multiplier, and product.
                         System.out.println("__________________________________________________________________");
                         System.out.println("|                   R   E   S   U   L   T   S                    |");
                         System.out.println("__________________________________________________________________");
@@ -57,7 +57,7 @@ public class MultiplicationProc {
                         System.out.println("\t    _________________________________________");
                         System.out.println("\n================||- -(Going back to Main Menu)- -||================\n");
                     }
-                    //Prints when one of the inputs for multiplicand and multiplier is negative.
+                    // Prints when one of the inputs for multiplicand and multiplier is negative.
                     else {
                         System.out.println("__________________________________________________________________");
                         System.out.println("|                   R   E   S   U   L   T   S                    |");
@@ -70,18 +70,18 @@ public class MultiplicationProc {
                         System.out.println("\t    _________________________________________");
                     }
                     break;
-                //Prints when the user enters the number "0".
+                // Prints when the user enters the number "0".
                 case 0:
                     System.out.println("====================||- -(Closing Program)- -||====================\n");
                     programStop = true;
                     break;
-                //Prints when the user enters a number that is not "0" or "1" {0,1}.
+                // Prints when the user enters a number that is not "0" or "1" {0,1}.
                 default:
                     System.out.println("---------------- !!(Please Input a Valid Number)!! ----------------\n");
                     break;
             }
         }
-        //Closes the Scanner
+        // Closes the Scanner
         input.close();
     }
 }
