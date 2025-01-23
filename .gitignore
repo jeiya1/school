@@ -1,3 +1,4 @@
 .github/
 ./CC104/library/out
 ./CC104/library/target
+./CC104/library/.idea
