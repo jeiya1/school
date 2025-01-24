@@ -14,11 +14,12 @@ public class Main {
         String author1, author2, author3, author4;
         float price1, price2, price3, price4;
 
+        System.out.println("Welcome to the BSIT");
         System.out.println("Library Management System");
-        System.out.println("Please enter Book Information");
+        System.out.println("Please Enter Book Information");
 
         // 1
-        System.out.println("Enter Book No. 1");
+        System.out.println("\n===== | BOOK NO. 1 | =====");
         System.out.print("Enter Book ID: ");
         bookId1 = lib.nextInt();
         lib.nextLine();
@@ -31,7 +32,7 @@ public class Main {
         lib.nextLine();
 
         // 2
-        System.out.println("Enter Book No. 2");
+        System.out.println("\n===== | BOOK NO. 2 | =====");
         System.out.print("Enter Book ID: ");
         bookId2 = lib.nextInt();
         lib.nextLine();
@@ -44,7 +45,7 @@ public class Main {
         lib.nextLine();
 
         // 3
-        System.out.println("Enter Book No. 3");
+        System.out.println("\n===== | BOOK NO. 3 | =====");
         System.out.print("Enter Book ID: ");
         bookId3 = lib.nextInt();
         lib.nextLine();
@@ -57,7 +58,7 @@ public class Main {
         lib.nextLine();
 
         // 4
-        System.out.println("Enter Book No. 4");
+        System.out.println("\n===== | BOOK NO. 4 | =====");
         System.out.print("Enter Book ID: ");
         bookId4 = lib.nextInt();
         lib.nextLine();

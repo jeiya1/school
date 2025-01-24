@@ -7,6 +7,7 @@ public class ShowTitle {
         boolean found = false;
         System.out.print("Please enter your Title: ");
         String inTitle = scanner.nextLine();
+        System.out.println("Here are the Book(s) from the Title you enter");
         if (inTitle.equalsIgnoreCase(title1)) {
             System.out.printf("""
                     [Book 1]
