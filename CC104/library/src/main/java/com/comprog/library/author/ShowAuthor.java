@@ -7,7 +7,7 @@ public class ShowAuthor {
         boolean found = false;
         System.out.print("Please enter your book author: ");
         String inAuthor = scanner.nextLine();
-        System.out.println("Here are the Book(s) from this Author that you are looking for");
+        System.out.println("Here are the Book(s) from this Author");
         if (inAuthor.equalsIgnoreCase(author1)) {
             System.out.printf("""
                     [Book 1]
