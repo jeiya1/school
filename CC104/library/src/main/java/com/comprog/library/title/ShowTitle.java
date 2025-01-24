@@ -40,7 +40,7 @@ public class ShowTitle {
                     """, id4, author4);
             found = true;
         }
-            if (!found) {
+        if (!found) {
             System.out.println("No such title!");
         }
     }
