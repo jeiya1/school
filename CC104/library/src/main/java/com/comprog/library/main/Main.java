@@ -10,10 +10,10 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner lib = new Scanner(System.in);
-        int bookId1, bookId2, bookId3;
-        String title1, title2, title3;
-        String author1, author2, author3;
-        float price1, price2, price3;
+        int bookId1, bookId2, bookId3, bookId4;
+        String title1, title2, title3, title4;
+        String author1, author2, author3, author4;
+        float price1, price2, price3, price4;
 
         System.out.println("Library Management System");
         System.out.println("Please enter Book Information");
@@ -57,7 +57,20 @@ public class Main {
         price3 = lib.nextFloat();
         lib.nextLine();
 
-        System.out.println("Unfortunately, 3 books is the most we can store.");
+        // 4
+        System.out.println("Enter Book No. 4");
+        System.out.print("Enter Book ID: ");
+        bookId4 = lib.nextInt();
+        lib.nextLine();
+        System.out.print("Enter Book Title: ");
+        title4 = lib.nextLine();
+        System.out.print("Enter Book Author: ");
+        author4 = lib.nextLine();
+        System.out.print("Enter Book Price: ");
+        price4 = lib.nextFloat();
+        lib.nextLine();
+
+        System.out.println("Unfortunately, 4 books is the most we can store.");
 
         int option = 0;
 
@@ -76,15 +89,15 @@ public class Main {
 
             switch (option) {
                 case 1:
-                    showAuthor.displayAuthor(bookId1, bookId2, bookId3, title1, title2, title3, author1, author2, author3, price1, price2, price3, lib);
+                    showAuthor.displayAuthor(bookId1, bookId2, bookId3, bookId4, title1, title2, title3, title4, author1, author2, author3, author4, lib);
                     break;
 
                 case 2:
-                    showTitle.displayTitle(bookId1, bookId2, bookId3, title1, title2, title3, author1, author2, author3, price1, price2, price3, lib);
+                    showTitle.displayTitle(bookId1, bookId2, bookId3, bookId4, title1, title2, title3, title4, author1, author2, author3, author4, lib);
                     break;
 
                 case 3:
-                    showID.displayPrice(bookId1, bookId2, bookId3, title1, title2, title3, author1, author2, author3, price1, price2, price3, lib);
+                    showID.displayPrice(bookId1, bookId2, bookId3, bookId4, price1, price2, price3, price4, lib);
                     break;
 
                 case 4:

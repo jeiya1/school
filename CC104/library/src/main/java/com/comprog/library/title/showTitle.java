@@ -3,7 +3,7 @@ package com.comprog.library.title;
 import java.util.Scanner;
 
 public class showTitle {
-    public static void displayTitle(int id1, int id2, int id3, String title1, String title2, String title3, String author1, String author2, String author3, float price1, float price2, float price3, Scanner scanner) {
+    public static void displayTitle(int id1, int id2, int id3, int id4, String title1, String title2, String title3, String title4, String author1, String author2, String author3, String author4, Scanner scanner) {
         boolean found = false;
         System.out.print("Please enter your Title: ");
         String inTitle = scanner.nextLine();
@@ -31,7 +31,15 @@ public class showTitle {
                     """, id3, author3);
             found = true;
         }
-        if (!found) {
+        if (inTitle.equalsIgnoreCase(title4)) {
+            System.out.printf("""
+                    [Book 3]
+                    ID: %s
+                    Author: %s
+                    """, id4, author4);
+            found = true;
+        }
+            if (!found) {
             System.out.println("No such title!");
         }
     }

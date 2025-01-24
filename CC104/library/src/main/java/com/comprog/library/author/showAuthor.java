@@ -3,7 +3,7 @@ package com.comprog.library.author;
 import java.util.Scanner;
 
 public class showAuthor {
-    public static void displayAuthor(int id1, int id2, int id3, String title1, String title2, String title3, String author1, String author2, String author3, float price1, float price2, float price3, Scanner scanner) {
+    public static void displayAuthor(int id1, int id2, int id3, int id4, String title1, String title2, String title3, String title4, String author1, String author2, String author3, String author4, Scanner scanner) {
         boolean found = false;
         System.out.print("Please enter your book author: ");
         String inAuthor = scanner.nextLine();
@@ -29,6 +29,14 @@ public class showAuthor {
                     ID: %s
                     Title: %s
                     """, id3, title3);
+            found = true;
+        }
+        if (inAuthor.equalsIgnoreCase(author4)) {
+            System.out.printf("""
+                    [Book 4]
+                    ID: %s
+                    Title: %s
+                    """, id4, title4);
             found = true;
         }
         if (!found) {
