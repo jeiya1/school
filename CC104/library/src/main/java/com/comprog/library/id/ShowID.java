@@ -2,7 +2,7 @@ package com.comprog.library.id;
 
 import java.util.Scanner;
 
-public class showID {
+public class ShowID {
     public static void displayPrice(int id1, int id2, int id3, int id4, float price1, float price2, float price3, float price4, Scanner scanner) {
         System.out.print("Please enter your book ID: ");
         int inID = scanner.nextInt();

@@ -2,7 +2,7 @@ package com.comprog.library.author;
 
 import java.util.Scanner;
 
-public class showAuthor {
+public class ShowAuthor {
     public static void displayAuthor(int id1, int id2, int id3, int id4, String title1, String title2, String title3, String title4, String author1, String author2, String author3, String author4, Scanner scanner) {
         boolean found = false;
         System.out.print("Please enter your book author: ");

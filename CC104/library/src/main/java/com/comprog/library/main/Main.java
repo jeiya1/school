@@ -1,10 +1,9 @@
 package com.comprog.library.main;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
-import com.comprog.library.author.showAuthor;
-import com.comprog.library.id.showID;
-import com.comprog.library.title.showTitle;
+import com.comprog.library.author.ShowAuthor;
+import com.comprog.library.id.ShowID;
+import com.comprog.library.title.ShowTitle;
 
 public class Main {
 
@@ -89,15 +88,15 @@ public class Main {
 
             switch (option) {
                 case 1:
-                    showAuthor.displayAuthor(bookId1, bookId2, bookId3, bookId4, title1, title2, title3, title4, author1, author2, author3, author4, lib);
+                    ShowAuthor.displayAuthor(bookId1, bookId2, bookId3, bookId4, title1, title2, title3, title4, author1, author2, author3, author4, lib);
                     break;
 
                 case 2:
-                    showTitle.displayTitle(bookId1, bookId2, bookId3, bookId4, title1, title2, title3, title4, author1, author2, author3, author4, lib);
+                    ShowTitle.displayTitle(bookId1, bookId2, bookId3, bookId4, title1, title2, title3, title4, author1, author2, author3, author4, lib);
                     break;
 
                 case 3:
-                    showID.displayPrice(bookId1, bookId2, bookId3, bookId4, price1, price2, price3, price4, lib);
+                    ShowID.displayPrice(bookId1, bookId2, bookId3, bookId4, price1, price2, price3, price4, lib);
                     break;
 
                 case 4:
