@@ -6,7 +6,6 @@ import com.comprog.library.id.ShowID;
 import com.comprog.library.title.ShowTitle;
 
 public class Main {
-
     public static void main(String[] args) {
         Scanner lib = new Scanner(System.in);
         int bookId1, bookId2, bookId3, bookId4;
