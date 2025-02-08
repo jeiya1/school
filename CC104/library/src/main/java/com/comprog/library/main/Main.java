@@ -108,7 +108,7 @@ public class Main {
                     break;
             }
 
-        } while (option != 4);
-
+        }
+        while (option != 4);
     }
 }
