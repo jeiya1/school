@@ -44,6 +44,7 @@ public class Advanced {
 
         // Print the Following:
         System.out.println("\n======================");
+        System.out.println("Reversed Word: " + revWord);
         System.out.println("Number of Vowels: " + vowelCount);
         System.out.println("Is a Palindrome: " + isPalindrome);
         System.out.println("======================");
