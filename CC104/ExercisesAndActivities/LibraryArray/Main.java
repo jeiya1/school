@@ -1,5 +1,3 @@
-package LibraryArray;
-
 import java.util.Scanner;
 
 public class Main {
