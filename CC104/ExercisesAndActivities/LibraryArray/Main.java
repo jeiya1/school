@@ -1,4 +1,4 @@
-package comprog.library.main;
+package LibraryArray;
 
 import java.util.Scanner;
 
