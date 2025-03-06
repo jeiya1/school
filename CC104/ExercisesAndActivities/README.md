@@ -1,7 +1,5 @@
 # CC104: Coding Exercises and Activities
 
-> If you try to run the code yourself, make sure to remove the `package` line.
-
 1. [Library of Books](./library)
 
 2. [Library of Books using Arrays](./LibraryArray/Main.java) 
@@ -24,19 +22,19 @@
 
 ### Library of Books
 
-```bash
+```text
 Too long to paste
 ```
 
 ### Library of Books using Arrays
 
-```bash
+```text
 Too long to paste
 ```
 
 ### Print a Reversed Array, Print it an Alternating Array, and then Print with Every Element Added by 5
 
-```bash
+```text
 +++++ Starting Array Input +++++
 Please enter #1: 1
 Please enter #2: 2
@@ -89,7 +87,7 @@ Please enter #10: 10
 
 ### Moving 0's to the end of an Array
 
-```bash
+```text
 ===== Input your 10 numbers =====
 Enter number 1: 01
 Enter number 2: 12
@@ -112,7 +110,7 @@ Enter number 10: 12
 
 1. Easy
 
-```bash
+```text
 Please enter a word: Racecar
 
 ======================
@@ -123,7 +121,7 @@ Is a Palindrome: true
 
 2. Advanced
 
-```bash
+```text
 Please enter a word: Madam!
 
 ======================
@@ -134,7 +132,7 @@ Is a Palindrome: true
 
 ### Get the Length of String, Number of Whites paces, and Update the String with White Spaces Omitted
 
-```bash
+```text
 Enter your input: Array Activity
 
 ==========================================================
@@ -144,7 +142,7 @@ The Updated String Omitting the Whitespaces: ArrayActivity
 ==========================================================
 ```
 
-```bash
+```text
 Enter your input: This is a long sentence for testing
 
 ==========================================================================
