@@ -35,7 +35,7 @@ public class Main {
         // Print the Array with +5 per Element
         System.out.println("\n+++++ Added +5 per Element in Array +++++");
         for (i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
+            System.out.println(numbers[i] + 5);
         }
     }
 }

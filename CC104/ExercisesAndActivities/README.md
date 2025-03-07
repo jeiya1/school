@@ -73,16 +73,16 @@ Please enter #10: 10
 10
 
 +++++ Added +5 per Element in Array +++++
-1
-2
-3
-4
-5
 6
 7
 8
 9
 10
+11
+12
+13
+14
+15
 ```
 
 ### Moving 0's to the end of an Array
