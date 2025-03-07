@@ -5,7 +5,7 @@ public class Advanced {
         // Declare and Initialize Variables
         String word;
         String wordPlain = "", revWord = "";
-        String vowels = "aeiouAEIOU";
+        final String vowels = "aeiouAEIOU";
         int vowelCount = 0;
         int i; // For-Loop Int Counter
         boolean isPalindrome = false;
