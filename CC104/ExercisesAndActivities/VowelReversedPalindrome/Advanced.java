@@ -48,6 +48,7 @@ public class Advanced {
         System.out.println("Number of Vowels: " + vowelCount);
         System.out.println("Is a Palindrome: " + isPalindrome);
         System.out.println("======================");
-    }
 
+        sc.close();
+    }
 }

@@ -37,5 +37,7 @@ public class Main {
         for (i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i] + 5);
         }
+
+        sc.close();
     }
 }

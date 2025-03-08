@@ -41,6 +41,8 @@ public class Main {
 
         // Bottom Border Block
         BorderPrint(newString.length());
+
+        sc.close();
     }
 
     private static void BorderPrint(int len) {

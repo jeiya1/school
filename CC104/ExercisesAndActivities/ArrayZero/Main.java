@@ -47,10 +47,12 @@ public class Main {
             System.out.print(newNums[i]);
 
             if (i == nums.length - 1) {
-                System.out.print("}");
+                System.out.print("}\n");
             } else {
                 System.out.print(",");
             }
         }
+
+        sc.close();
     }
 }
