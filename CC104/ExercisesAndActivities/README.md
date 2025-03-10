@@ -9,12 +9,14 @@
 4. [Moving 0's to the end of an Array](./ArrayZero/Main.java) 
 
 5. Count Vowels, Print the Reversed Array, and Check if Palindrome
-   
+
    - [Easy Method](./VowelReversedPalindrome/Easy.java)
-   
+
    - [Advanced Method](./VowelReversedPalindrome/Advanced.java)
 
 6. [Get the Length of String, Number of Whites paces, and Update the String with White Spaces Omitted](./LenWhitesString/Main.java)
+
+7. [Vowels, Consonants, Longest, Palindrome, Uppercase, Lowercase, Underscores, Equal, and Concatenated](./StringManipulationAdvanced/Main.java)
 
 ## Sample Run
 
@@ -150,4 +152,78 @@ The Total Number of Characters: 35
 The Total Number of Whitespaces: 6
 The Updated String Omitting the Whitespaces: Thisisalongsentencefortesting
 ==========================================================================
+```
+
+### Vowels, Consonants, Longest, Palindrome, Uppercase, Lowercase, Underscores, Equal, and Concatenated
+
+```text
+Enter a string: Hello World
+============================
+-----> Given Word: Jeiya Net
+============================
+Number of vowels: 3
+Number of consonants: 7
+Longest word: World
+Is the string a palindrome?: false
+Uppercase: HELLO WORLD
+Lowercase: hello world
+String with underscores: Hello_World
+Reversed string: dlroW olleH
+Are the strings equal (case-sensitive)?: false
+Are the strings equal (case-insensitive)?: false
+Concatenated Result: Jeiya NetHello World
+```
+
+```text
+Enter a string: race Car!
+============================
+-----> Given Word: Jeiya Net
+============================
+Number of vowels: 3
+Number of consonants: 4
+Longest word: race
+Is the string a palindrome?: true
+Uppercase: RACE CAR!
+Lowercase: race car!
+String with underscores: race_Car!
+Reversed string: !raC ecar
+Are the strings equal (case-sensitive)?: false
+Are the strings equal (case-insensitive)?: false
+Concatenated Result: Jeiya Netrace Car!
+```
+
+```text
+Enter a string: Jeiya Net
+============================
+-----> Given Word: Jeiya Net
+============================
+Number of vowels: 4
+Number of consonants: 4
+Longest word: Jeiya
+Is the string a palindrome?: false
+Uppercase: JEIYA NET
+Lowercase: jeiya net
+String with underscores: Jeiya_Net
+Reversed string: teN ayieJ
+Are the strings equal (case-sensitive)?: true
+Are the strings equal (case-insensitive)?: true
+Concatenated Result: Jeiya NetJeiya Net
+```
+
+```text
+Enter a string: jeiya net
+============================
+-----> Given Word: Jeiya Net
+============================
+Number of vowels: 4
+Number of consonants: 4
+Longest word: jeiya
+Is the string a palindrome?: false
+Uppercase: JEIYA NET
+Lowercase: jeiya net
+String with underscores: jeiya_net
+Reversed string: ten ayiej
+Are the strings equal (case-sensitive)?: false
+Are the strings equal (case-insensitive)?: true
+Concatenated Result: Jeiya Netjeiya net
 ```
