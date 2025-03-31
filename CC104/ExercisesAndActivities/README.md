@@ -18,6 +18,8 @@
 
 7. [Vowels, Consonants, Longest, Palindrome, Uppercase, Lowercase, Underscores, Equal, and Concatenated](./StringManipulationAdvanced/Main.java)
 
+8. [AdvancedArrayListActivity](./AdvancedArrayListActivity/AdvancedArrayListActivity.java)
+
 ## Sample Run
 
 ----
@@ -226,4 +228,32 @@ Reversed string: ten ayiej
 Are the strings equal (case-sensitive)?: false
 Are the strings equal (case-insensitive)?: true
 Concatenated Result: Jeiya Netjeiya net
+```
+
+### AdvancedArrayListActivity
+
+```
+                            _         _____ 
+  _____  _____ ___ _ __ ___(_)___  __|___  |
+ / _ \ \/ / __/ _ \ '__/ __| / __|/ _ \ / / 
+|  __/>  < (_|  __/ | | (__| \__ \  __// /  
+ \___/_/\_\___\___|_|  \___|_|___/\___/_/   
+
+
+How many elements do you want to add for listA?: 4
+element 1: 5
+element 2: -4
+element 3: 5
+element 4: 3
+
+How many elements do you want to add for listB?: 6
+element 1: 4
+element 2: 3
+element 3: 2
+element 4: 2
+element 5: 7
+element 6: 5
+
+===== This is the final list =====
+[-4, 2, 3, 4, 5, 7]
 ```
