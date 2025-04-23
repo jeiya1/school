@@ -20,6 +20,8 @@
 
 8. [AdvancedArrayListActivity](./AdvancedArrayListActivity/AdvancedArrayListActivity.java)
 
+9. [Student Registration System](./StudentRegistration/Main.java)
+
 ## Sample Run
 
 ----
@@ -256,4 +258,10 @@ element 6: 5
 
 ===== This is the final list =====
 [-4, 2, 3, 4, 5, 7]
+```
+
+### Student Registration System
+
+```text
+Too long to paste
 ```
