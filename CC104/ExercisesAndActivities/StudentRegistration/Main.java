@@ -77,11 +77,11 @@ public class Main {
                     case 4:
                         System.out.println();
                         System.out.print("Enter student ID to find: ");
-                        System.out.println();
                         studentId = sc.nextInt();
                         Student found = system.findStudent(studentId);
 
                         if (found != null) {
+                            System.out.println();
                             System.out.println("--- Student found: " + found);
                         } else {
                             System.out.println("ERROR: Student not found");
