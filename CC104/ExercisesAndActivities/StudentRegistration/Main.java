@@ -37,6 +37,12 @@ public class Main {
                         name = sc.nextLine();
                         System.out.print("Enter student ID: ");
                         studentId = sc.nextInt();
+
+                        if (studentId <= -1) {
+                            System.out.println("ERROR: Invalid Student ID");
+                            break;
+                        }
+
                         System.out.print("Enter GPA: ");
                         gpa = sc.nextDouble();
 
